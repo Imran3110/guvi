@@ -1,0 +1,43 @@
+Difference between http1.1 & http 2
+
+http 1.1
+       * http is an  hypertext transfer protocol
+       * the speed of loading page is slow because of its protocal
+       * it transfer all the request & response in a plain text format
+       * it take multiple TCP for multiple request 
+       * it has HOL blocking which means the request will not show the next one untill it doesn't get its all resources
+       * it uses get & put for page request 
+       * it compress data by itself
+       
+       
+       
+       
+http 2
+        * it works on SPDY protocal to get speed response of page
+        * it transfer all the request & response in a binary format
+        * it works one TCP is required for multiple request
+        * the request works in parellel
+        * it uses PUSH for page request 
+        * it uses HPACK for data compression 
+        
+        
+        
+        
+OBJECTS:
+        * Object is the most important data type in javascript.
+        * Objects is also as variables.
+        * The object are in different combination data type.
+        * Object is an unordered collection of data type in the form of "key:value" pairs.
+        * These keys are in variables or functions are called as properties.
+        * An object created by using by {} brackets.
+        
+        
+      ex:
+          var school ={ 
+                  name:"Imran"
+                  country:"india"
+                  }
+                  
+                  
+              * you can see this name,country are keys and Imran,india are values.
+              * these keys is reffered as properties
